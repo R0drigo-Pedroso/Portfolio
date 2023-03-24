@@ -1,4 +1,11 @@
-main {
-    background-image: url('../img/bgCallAction.png');
-    width: auto;
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300;1,400;1,600&display=swap');
+
+html {
+    font-size: 1rem;
+}
+
+.contato-text {
+    border-radius: 5px;
+    background: #192C57;
+    color: #CDD4E9 !important;
 }
