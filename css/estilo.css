@@ -12,13 +12,16 @@ img {
 }
 
 html {
-    font-size: 1rem;
+  font-family: 'Nunito Sans';
+  font-size: 1rem;
 }
 /* Final da Configurações para zera css */
 
+/* Configurações header (Cabeçalho) */
 header {
-  font-family: 'Nunito';
-  font-weight: 600;
+  font-family: 'Nunito Sans';
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .contato-text {
@@ -35,5 +38,64 @@ a:hover {
   border-radius: 5px;
   background: #192C57;
   color: #CDD4E9 !important;
-  transition: 1s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+/* Final Configurações header (Cabeçalho) */
+
+
+/* Estilização do Conteúdo */
+main {
+  font-family: 'Nunito Sans' !important;
+}
+
+.bg-img-principal {
+  height: 100%;
+  background-image: url('../img/bgCallAction.png');
+}
+
+.bg-img-segundaria{
+  height: 100%;
+  background-image: url('../img/bgSegundario.png');
+}
+
+main span {
+  font-size: 2.5rem ;
+  color: #192C57;
+  font-weight: 600 !important;
+  text-transform: uppercase;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 3.5rem !important;
+  font-weight: 700 !important;
+}
+
+.frontP {
+  background: #192C57;
+  color: #CDD4E9;
+  padding: 5px;
+  border-radius: 5px;
+
+  font-size: 1.5rem;
+  /* box-shadow:#203973 1.95px 1.95px 2.6px; */
+  box-shadow: #203973 2.4px 2.4px 3.2px;
+}
+
+.botaoPrimario {
+  background: #192C57 !important;
+  color: #CDD4E9 !important;
+}
+  
+.botaoSegundario {
+  background: #B2D3A8 !important;
+  color: #192C57 !important;
+}
+
+.botaoPrimario:hover {
+  background: #203973 !important;
+}
+
+.botaoSegundario:hover {
+  background: #8FAA87 !important;
 }
