@@ -51,11 +51,15 @@ main {
 .bg-img-principal {
   height: 100%;
   background-image: url('../img/bgprimariaTeste.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .bg-img-segundaria{
   height: 100%;
   background-image: url('../img/bgSegundario.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 main span {
