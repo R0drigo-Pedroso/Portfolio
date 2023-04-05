@@ -75,7 +75,7 @@ h1 {
   font-weight: 700 !important;
 }
 
-.frontP {
+.devFrontEnd {
   background: #192C57;
   color: #CDD4E9;
   padding: 5px;
@@ -90,16 +90,22 @@ h1 {
   background: #192C57 !important;
   color: #CDD4E9 !important;
 }
-  
+
+  .botaoPrimario:hover {
+    background: #203973 !important;
+  }
+
 .botaoSegundario {
   background: #B2D3A8 !important;
   color: #192C57 !important;
 }
+  .botaoSegundario:hover {
+    background: #8FAA87 !important;
+    color: #192c57 !important;
+  }
 
-.botaoPrimario:hover {
-  background: #203973 !important;
-}
-
-.botaoSegundario:hover {
-  background: #8FAA87 !important;
+@media (max-width: 600px)  {
+  h1 {
+    font-size: 2.7rem !important;
+  }
 }
