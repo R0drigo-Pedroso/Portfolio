@@ -13,7 +13,7 @@ img {
 
 html {
   font-family: 'Nunito Sans';
-  font-size: 1rem;
+  font-size: 16px;
 }
 /* Final da Configurações para zera css */
 
@@ -32,9 +32,10 @@ header {
 
 li {
   margin: 0 5px;
+  list-style: none;
 }
 
-a:hover {
+nav a:hover {
   border-radius: 5px;
   background: #192C57;
   color: #CDD4E9 !important;
@@ -48,26 +49,17 @@ main {
   font-family: 'Nunito Sans' !important;
 }
 
-.bg-img-principal {
-  height: 100%;
-  background-image: url('../img/bgprimariaTeste.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.bg-img-segundaria{
-  height: 100%;
-  background-image: url('../img/bgSegundario.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 main span {
-  font-size: 2.5rem ;
+  font-size: 1.5rem ;
   color: #192C57;
   font-weight: 600 !important;
   text-transform: uppercase;
 }
+
+p {
+  font-size: 1.3rem;
+}
+
 
 h1 {
   text-transform: uppercase;
@@ -75,16 +67,48 @@ h1 {
   font-weight: 700 !important;
 }
 
-.devFrontEnd {
-  background: #192C57;
-  color: #CDD4E9;
-  padding: 5px;
-  border-radius: 5px;
+  .textodevFrontEnd {
+    background: #192C57;
+    color: #CDD4E9;
+    padding: 5px;
+    border-radius: 5px;
 
-  font-size: 1.5rem;
-  /* box-shadow:#203973 1.95px 1.95px 2.6px; */
-  box-shadow: #203973 2.4px 2.4px 3.2px;
+    font-size: 1.5rem;
+    /* box-shadow:#203973 1.95px 1.95px 2.6px; */
+    box-shadow: #203973 2.4px 2.4px 3.2px;
+  }
+
+/* .bg-img-principal {
+  background-image: url("../img/bg/cirulosPrimarios.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
+.bg-img-segundaria{
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-image: url("../img/bg/cirulosPrimarios.svg"); */
+
+  /* margin entre blocos */
+ /*  margin-top: 3rem;
+} */
+
+.border-foto-pessoal {
+  border: #7A8DBC solid;
+  border-left: #7A8DBC;
+  border-bottom: #7A8DBC;
+  border-radius: 10px;
+  border-width: 10px;
+
+}
+
+  .border-foto-pessoal img {
+    margin-top: -5rem;
+    width: 26rem;
+    border-radius: 10px;
+  }
 
 .botaoPrimario {
   background: #192C57 !important;
@@ -104,8 +128,25 @@ h1 {
     color: #192c57 !important;
   }
 
+.linkRedes a {
+  width: 2.3rem;
+}
+
+.facebook{
+  width: 2rem !important;
+}
+
 @media (max-width: 600px)  {
   h1 {
-    font-size: 2.7rem !important;
+    font-size: 2.5rem !important;
   }
+
+  .border-teste img {
+    width: 23rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
 }
