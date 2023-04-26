@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="5400" viewBox="0 0 1920 5400">
+  <defs>
+    <clipPath id="clip-BG">
+      <rect width="1920" height="5400"/>
+    </clipPath>
+  </defs>
+  <g id="BG" clip-path="url(#clip-BG)">
+    <rect width="1920" height="5400" fill="#f7f7ff"/>
+    <circle id="Elipse_2" data-name="Elipse 2" cx="350" cy="350" r="350" transform="translate(1500 134)" fill="#7a8dbc"/>
+    <circle id="Elipse_3" data-name="Elipse 3" cx="350" cy="350" r="350" transform="translate(1086 394)" fill="#7a8dbc"/>
+    <circle id="Elipse_14" data-name="Elipse 14" cx="350" cy="350" r="350" transform="translate(1458 769)" fill="#7a8dbc"/>
+    <circle id="Elipse_15" data-name="Elipse 15" cx="350" cy="350" r="350" transform="translate(-210 1904)" fill="#7a8dbc"/>
+    <circle id="Elipse_16" data-name="Elipse 16" cx="350" cy="350" r="350" transform="translate(1430 2604)" fill="#7a8dbc"/>
+    <circle id="Elipse_17" data-name="Elipse 17" cx="350" cy="350" r="350" transform="translate(-210 3472)" fill="#7a8dbc"/>
+    <circle id="Elipse_18" data-name="Elipse 18" cx="350" cy="350" r="350" transform="translate(1380 4172)" fill="#7a8dbc"/>
+    <circle id="Elipse_19" data-name="Elipse 19" cx="350" cy="350" r="350" transform="translate(-260 5040)" fill="#7a8dbc"/>
+  </g>
+</svg>

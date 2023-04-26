@@ -60,6 +60,10 @@ p {
   font-size: 1.3rem;
 }
 
+body {
+  background-image: url("../img/bg/BGimg.svg");
+  background-size: cover;
+}
 
 h1 {
   text-transform: uppercase;
@@ -78,30 +82,12 @@ h1 {
     box-shadow: #203973 2.4px 2.4px 3.2px;
   }
 
-/* .bg-img-principal {
-  background-image: url("../img/bg/cirulosPrimarios.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.bg-img-segundaria{
-  width: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  background-image: url("../img/bg/cirulosPrimarios.svg"); */
-
-  /* margin entre blocos */
- /*  margin-top: 3rem;
-} */
-
 .border-foto-pessoal {
   border: #7A8DBC solid;
   border-left: #7A8DBC;
-  border-bottom: #7A8DBC;
+  padding-bottom: 2rem;
   border-radius: 10px;
   border-width: 10px;
-
 }
 
   .border-foto-pessoal img {
@@ -136,6 +122,15 @@ h1 {
   width: 2rem !important;
 }
 
+
+/* Cards */
+.cardsBock {
+  border: #7A8DBC 8px solid !important;
+  width: 26rem;
+  margin: auto;
+  margin-top: 1rem;
+}
+
 @media (max-width: 600px)  {
   h1 {
     font-size: 2.5rem !important;
@@ -150,3 +145,27 @@ h1 {
   }
 
 }
+
+
+
+/* 
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="5400" viewBox="0 0 1920 5400">
+  <defs>
+    <clipPath id="clip-BG">
+      <rect width="1920" height="5400"/>
+    </clipPath>
+  </defs>
+  <g id="BG" clip-path="url(#clip-BG)">
+    <rect width="1920" height="5400" fill="#f7f7ff"/>
+    <circle id="Elipse_2" data-name="Elipse 2" cx="350" cy="350" r="350" transform="translate(1472 401)" fill="#7a8dbc"/>
+    <circle id="Elipse_3" data-name="Elipse 3" cx="350" cy="350" r="350" transform="translate(1058 661)" fill="#7a8dbc"/>
+    <circle id="Elipse_14" data-name="Elipse 14" cx="350" cy="350" r="350" transform="translate(1430 1036)" fill="#7a8dbc"/>
+    <circle id="Elipse_15" data-name="Elipse 15" cx="350" cy="350" r="350" transform="translate(-210 1904)" fill="#7a8dbc"/>
+    <circle id="Elipse_16" data-name="Elipse 16" cx="350" cy="350" r="350" transform="translate(1430 2604)" fill="#7a8dbc"/>
+    <circle id="Elipse_17" data-name="Elipse 17" cx="350" cy="350" r="350" transform="translate(-210 3472)" fill="#7a8dbc"/>
+    <circle id="Elipse_18" data-name="Elipse 18" cx="350" cy="350" r="350" transform="translate(1380 4172)" fill="#7a8dbc"/>
+    <circle id="Elipse_19" data-name="Elipse 19" cx="350" cy="350" r="350" transform="translate(-260 5040)" fill="#7a8dbc"/>
+  </g>
+</svg>
+
+*/
