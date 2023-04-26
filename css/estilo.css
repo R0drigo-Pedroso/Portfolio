@@ -60,10 +60,10 @@ p {
   font-size: 1.3rem;
 }
 
-body {
+/* body {
   background-image: url("../img/bg/BGimg.svg");
   background-size: cover;
-}
+} */
 
 h1 {
   text-transform: uppercase;
@@ -89,6 +89,10 @@ h1 {
   border-radius: 10px;
   border-width: 10px;
 }
+
+  .marginBlock {
+    margin-top: 4rem !important;
+  }
 
   .border-foto-pessoal img {
     margin-top: -5rem;
@@ -143,6 +147,11 @@ h1 {
   p {
     font-size: 1rem;
   }
+
+  .marginBlock {
+    margin-top: 8rem !important;
+  }
+
 
 }
 
