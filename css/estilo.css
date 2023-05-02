@@ -61,8 +61,8 @@ p {
 }
 
 body {
-  background-image: url("../img/bg/BGimg.svg");
-  background-size: cover;
+  background-image: url("../img/bg/BGteste.svg");
+  background-repeat: repeat-y;
 }
 
 h1 {
