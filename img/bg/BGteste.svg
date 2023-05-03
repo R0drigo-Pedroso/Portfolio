@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
-  <g id="BGteste" transform="translate(44 20)">
-    <rect id="Retângulo_fora" data-name="Retângulo fora" width="1920" height="1080" transform="translate(-44 -20)" fill="#f7f7ff"/>
-    <path id="União_2" data-name="União 2" d="M-857,244V224H1063v20Zm0-28V196H1063v20Zm0-28V168H1063v20Zm0-28V140H1063v20Zm0-28V112H1063v20Zm0-28V84H1063v20Zm0-28V56H1063V76Zm0-28V28H1063V48Zm0-28V0H1063V20Z" transform="translate(813 276)" fill="#7a8dbc" opacity="0.05"/>
-    <path id="União_4" data-name="União 4" d="M-857,244V224H1063v20Zm0-28V196H1063v20Zm0-28V168H1063v20Zm0-28V140H1063v20Zm0-28V112H1063v20Zm0-28V84H1063v20Zm0-28V56H1063V76Zm0-28V28H1063V48Zm0-28V0H1063V20Z" transform="translate(813 528)" fill="#7a8dbc" opacity="0.05"/>
-  </g>
-</svg>
