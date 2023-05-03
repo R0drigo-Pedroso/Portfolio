@@ -126,6 +126,11 @@ h1 {
   width: 2rem !important;
 }
 
+/* Hard Skill */
+
+#iconsImg  img {
+  width: 6rem;
+}
 
 /* Cards */
 .cardsBock {
