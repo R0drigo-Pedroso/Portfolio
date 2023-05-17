@@ -90,7 +90,7 @@ h1 {
 }
 
   .marginBlock {
-    margin-top: 4rem !important;
+    margin-top: 8rem !important;
   }
 
   .border-foto-pessoal img {
@@ -151,12 +151,6 @@ h1 {
   p {
     font-size: 1rem;
   }
-
-  .marginBlock {
-    margin-top: 8rem !important;
-  }
-
-
 }
 
 
