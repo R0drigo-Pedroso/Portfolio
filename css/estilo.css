@@ -62,6 +62,7 @@ p {
 
 body {
   background-image: url("../img/bg/colecao-de-folhas-de-papel-em-tons-azul.jpg");
+  background-attachment: fixed;
 }
 
 h1 {
@@ -146,6 +147,10 @@ h1 {
 
   p {
     font-size: 1rem;
+  }
+
+  .mSobre {
+    margin: 2rem 0 0 0;
   }
 }
 
