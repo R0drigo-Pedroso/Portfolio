@@ -63,6 +63,7 @@ p {
 body {
   background-image: url("../img/bg/colecao-de-folhas-de-papel-em-tons-azul.jpg");
   background-attachment: fixed;
+  background-size: cover;
 }
 
 h1 {
@@ -128,8 +129,9 @@ h1 {
 
 /* Hard Skill */
 
-#iconsImg img {
-  width: 6rem;
+.iconsSkill img {
+  width: 5rem;
+  padding: 0 .5rem;
 }
 
 /* Cards */
