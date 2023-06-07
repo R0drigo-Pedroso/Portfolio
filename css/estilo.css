@@ -128,12 +128,21 @@ h1 {
 }
 
 /* Hard Skill */
-
 .iconsSkill img {
   width: 5rem;
   padding: 0 .5rem;
 }
 
+.textSoftSkill a {
+  color: #192C57;
+  line-height: 3.8rem;
+}
+
+.textSoftSkill a:hover {
+  color: #ffffff;
+  line-height: 3.8rem;
+}
+ 
 /* Cards */
 .cardsBock {
   border: #7A8DBC 8px solid !important;
