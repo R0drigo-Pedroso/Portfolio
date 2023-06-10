@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Sou um desenvolvedor front-end apaixonado por criar experiências incríveis na web. Neste portfólio, você encontrará uma coleção dos meus projetos, demonstrando minha habilidade em HTML, CSS, JavaScript e frameworks como React.js. Explore meu trabalho e entre em contato para colaborações e oportunidades emocionantes.">
+
     <title>Portfolio - Rodrigo Pedroso</title>
 
     <link rel="stylesheet" href="./css/estilo.css">
@@ -17,7 +20,7 @@
 
 <body>
     <!-- cabeçalho -->
-    <header class="container">
+    <header class="container pt-3">
         <section class="navbar navbar-expand-lg">
             <section class="container-fluid">
 
@@ -77,8 +80,8 @@
                     </p>
 
                     <section class="d-grid gap-2 d-md-flex justify-content-md-start">
-                        <button type="button" class="btn botaoPrimario btn-lg px-5 me-md-2 fw-bolder border-0">Sobre mim <i
-                                class="bi bi-person-fill-exclamation"></i></button>
+                        <a type="button" class="btn botaoPrimario btn-lg px-5 me-md-2 fw-bolder border-0" href="https://github.com/R0drigo-Pedroso"
+                            target="_blank">Github <i class="bi bi-github"></i></a>
                         <a type="button" class="btn botaoSegundario btn-lg px-5 fw-bolder border-0" href="./cv/rodrigo-pedroso-dos-santos.pdf"
                             download>Download CV <i class="bi bi-file-earmark-arrow-down-fill"></i></a>
                     </section>
@@ -88,16 +91,16 @@
 
         <!-- Quem sou - Sobre mim -->
         <div id="sobreMim"></div>
-        <section class="container marginBlock">
+        <section class="container mt-5 pt-5">
             <section class="col d-lg-flex">
                 <section class="col-md-5 order-md-1 m-auto">
                     <div class="border-foto-pessoal">
-                        <img src="img/fotos/RodrigoPedroso_03-min.jpg" alt="">
+                        <img src="img/fotos/perfilRodrigoPedroso.png" alt="">
                     </div>
                 </section>
 
                 <section class="col col-md-12 col-lg-6 order-md-2">
-                    <section class="col-6 col-md-6 col-sm-6 col-lg-5 mSobre">
+                    <section class="col-6 col-md-6 col-sm-6 col-lg-5 mb-4">
                         <span>Sobre mim</span>
                         <svg xmlns="http://www.w3.org/2000/svg" width="175" height="5" viewBox="0 0 175 5">
                             <line id="Linha_4" data-name="Linha 4" x2="170" transform="translate(2.5 2.5)" fill="none" stroke="#cdd4e9"
@@ -144,17 +147,17 @@
                                 </a>
                             </li>
                             <li class="list-inline-item">
-                                <a href="#" class="text-black">
+                                <a href="https://www.linkedin.com/in/rodrigo-pedros0/" class="text-black" target="_blank">
                                     <i class="bi bi-linkedin fs-2"></i>
                                 </a>
                             </li>
                             <li class="list-inline-item">
-                                <a href="#" class="text-black">
+                                <a href="mailto:rodrigo.pedrosost@gmail.com?subject=Contato Portfólio" class="text-black" target="_blank">
                                     <i class="bi bi-envelope-fill fs-2"></i>
                                 </a>
                             </li>
                             <li class="list-inline-item">
-                                <a href="#" class="text-black">
+                                <a href="https://www.instagram.com/rodrig0.pedros0/" class="text-black" target="_blank">
                                     <i class="bi bi-instagram fs-2"></i>
                                 </a>
                             </li>
@@ -166,8 +169,7 @@
         <!-- Final Quem sou - Sobre mim -->
 
         <!-- Cards de Projetos -->
-        <div id="portfolio"></div>
-        <section class="container marginBlock">
+        <section class="container pt-5" id="portfolio">
             <section class="row featurette">
                 <section class="col-md-7 order-md-2">
                     <section class="col-6 col-md-6 col-sm-6 col-lg-5">
@@ -332,8 +334,7 @@
 
 
         <!-- Começo hard skills e soft skills -->
-        <div id="hardSoft"></div>
-        <section class="container marginBlock">
+        <section class="container mt-5 pt-5" id="hardSoft">
             <section class="row featurette">
                 <section class="col-md-7 order-md-2">
                     <section class="col-6 col-md-6 col-sm-6 col-lg-6">
@@ -348,17 +349,17 @@
             <section class="container">
                 <div class="row featurette">
                     <div class="col-md-6 m-auto textSoftSkill">
-                        <div>
-                            <li><a class="fs-4 text-decoration-none"><i class="bi bi-caret-right-fill"></i>Responsabilidade</a></li>
-                            <li><a class="fs-4 text-decoration-none"><i class="bi bi-caret-right-fill"></i>Pensamento Analítico</a></li>
-                            <li><a class="fs-4 text-decoration-none"><i class="bi bi-caret-right-fill"></i>Colaboração</a></li>
-                            <li><a class="fs-4 text-decoration-none"><i class="bi bi-caret-right-fill"></i>Flexibilidade</a></li>
-                            <li><a class="fs-4 text-decoration-none"><i class="bi bi-caret-right-fill"></i>Resolução de Problemas</a></li>
-                            <li><a class="fs-4 text-decoration-none"><i class="bi bi-caret-right-fill"></i>Pensamento Crítico</a></li>
-                            <li><a class="fs-4 text-decoration-none"><i class="bi bi-caret-right-fill"></i>Trabalho em Equipe</a></li>
-                            <li><a class="fs-4 text-decoration-none"><i class="bi bi-caret-right-fill"></i>Criatividade</a></li>
-                            <li><a class="fs-4 text-decoration-none"><i class="bi bi-caret-right-fill"></i>Capacidade de Adaptação</a></li>
-                        </div>
+                        <ul>
+                            <li><a href="#" class="fs-4 text-decoration-none"><i class="bi bi-caret-right-fill"></i>Responsabilidade</a></li>
+                            <li><a href="#" class="fs-4 text-decoration-none"><i class="bi bi-caret-right-fill"></i>Pensamento Analítico</a></li>
+                            <li><a href="#" class="fs-4 text-decoration-none"><i class="bi bi-caret-right-fill"></i>Colaboração</a></li>
+                            <li><a href="#" class="fs-4 text-decoration-none"><i class="bi bi-caret-right-fill"></i>Flexibilidade</a></li>
+                            <li><a href="#" class="fs-4 text-decoration-none"><i class="bi bi-caret-right-fill"></i>Resolução de Problemas</a></li>
+                            <li><a href="#" class="fs-4 text-decoration-none"><i class="bi bi-caret-right-fill"></i>Pensamento Crítico</a></li>
+                            <li><a href="#" class="fs-4 text-decoration-none"><i class="bi bi-caret-right-fill"></i>Trabalho em Equipe</a></li>
+                            <li><a href="#" class="fs-4 text-decoration-none"><i class="bi bi-caret-right-fill"></i>Criatividade</a></li>
+                            <li><a href="#" class="fs-4 text-decoration-none"><i class="bi bi-caret-right-fill"></i>Capacidade de Adaptação</a></li>
+                        </ul>
                     </div>
                     <div class="col-md-6 text-center iconsSkill">
                         <div>
@@ -388,11 +389,13 @@
         <div class="py-5">
             <h2 class="display-3 fw-bold text-white text-uppercase">Conheça meu Trabalho!</h2>
             <div class="col-lg-6 mx-auto">
-                <p class="fs-5 mb-4">Descubra meu talento e paixão pela programação: Projetos incríveis no GitHub e currículo disponível! Entre no
+                <p class="fs-5 mb-4 text-white-50">Descubra meu talento e paixão pela programação: Projetos incríveis no GitHub e currículo
+                    disponível! Entre no
                     mundo dos meus códigos e descubra soluções inovadoras. Faça o download do meu currículo e explore minha experiência e habilidades.
                     Estou pronto para novas oportunidades e mal posso esperar para compartilhar meu conhecimento com você!</p>
                 <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                    <a type="button" class="btn botaoPrimario btn-lg px-5 me-md-2 fw-bolder border-0" href="#">Github <i class="bi bi-github"></i></a>
+                    <a type="button" class="btn botaoPrimario btn-lg px-5 me-md-2 fw-bolder border-0" href="https://github.com/R0drigo-Pedroso"
+                        target="_blank">Github <i class="bi bi-github"></i></a>
                     <a type="button" class="btn botaoSegundario btn-lg px-5 fw-bolder border-0" href="./cv/rodrigo-pedroso-dos-santos.pdf"
                         download>Download CV <i class="bi bi-file-earmark-arrow-down-fill"></i></a>
                 </div>
@@ -412,22 +415,22 @@
                             </a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="#" class="text-light">
+                            <a href="https://www.instagram.com/rodrig0.pedros0/" class="text-light" target="_blank">
                                 <i class="bi bi-instagram fs-2"></i>
                             </a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="#" class="text-light">
+                            <a href="https://www.linkedin.com/in/rodrigo-pedros0/" class="text-light" target="_blank">
                                 <i class="bi bi-linkedin fs-2"></i>
                             </a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="#" class="text-light">
+                            <a href="mailto:rodrigo.pedrosost@gmail.com?subject=Contato Portfólio" class="text-light">
                                 <i class="bi bi-envelope-fill fs-2"></i>
                             </a>
                         </li>
                     </ul>
-                    <p>&copy; 2023 Seu Site. Todos os direitos reservados.</p>
+                    <p>&copy; 2023. Todos os direitos reservados</p>
                 </div>
             </div>
         </div>
