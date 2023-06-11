@@ -1,5 +1,7 @@
 /* 
     Preciso busca no html o elemente h1 (Rodrigo Pedroso), criar uma animação em js estilo uma maquina de escrever.
+
+    Primeira versão
 */
 
 /* const textoPrincipal = document.querySelector("#textoPrincipal");
@@ -19,47 +21,39 @@ const animacaoMaquinaDeEscrever = (element, texto) => {
 animacaoMaquinaDeEscrever(textoPrincipal, "Rodrigo Pedroso");
  */
 
-/* const textoPrincipal = document.querySelector("#textoPrincipal");
-const texto = "Rodrigo Pedroso";
-
-const animacaoMaquinaDeEscrever = (element, texto) => {
-  let i = 0;
-  const tempoDigitacao = 150; // Tempo em milissegundos entre cada caractere
-
-  const escreverCaractere = () => {
-    if (i < texto.length) {
-      element.innerHTML += texto.charAt(i);
-      i++;
-      setTimeout(escreverCaractere, tempoDigitacao);
-    }
-  };
-
-  escreverCaractere();
-};
-
-animacaoMaquinaDeEscrever(textoPrincipal, texto); */
-
+// Seleciona o elemento do HTML onde o texto será exibido
 const textoPrincipal = document.querySelector("#textoPrincipal");
+
+// Texto que será exibido na animação
 const texto = "Rodrigo Pedroso";
 
+// Função responsável por animar a máquina de escrever
 const animacaoMaquinaDeEscrever = (element, texto) => {
   let i = 0;
-  const tempoDigitacao = 90; // Tempo em milissegundos entre cada caractere
+  const tempoDigitacao = 130; // Tempo em milissegundos entre cada caractere
 
+  // Função recursiva para escrever cada caractere
   const escreverCaractere = () => {
+    // Verifica se ainda há caracteres para escrever
     if (i < texto.length) {
+      // Adiciona o próximo caractere ao elemento HTML
       element.innerHTML += texto.charAt(i);
       i++;
+
+      // Chama a função novamente após o tempo de digitação
       setTimeout(escreverCaractere, tempoDigitacao);
-    } else {
-      element.innerHTML = texto; // Exibir o texto completo após a animação
     }
   };
 
+  // Limpa o texto inicial antes de iniciar a animação
+  element.innerHTML = "";
+
+  // Inicia a animação
   escreverCaractere();
 };
 
-// Limpar o texto inicial antes de iniciar a animação
-textoPrincipal.innerHTML = "";
-
-animacaoMaquinaDeEscrever(textoPrincipal, texto);
+// Aguarda o carregamento completo da página
+document.addEventListener("DOMContentLoaded", () => {
+  // Chama a função de animação passando o elemento e o texto a ser exibido
+  animacaoMaquinaDeEscrever(textoPrincipal, texto);
+});
