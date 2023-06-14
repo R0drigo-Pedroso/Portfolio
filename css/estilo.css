@@ -96,6 +96,22 @@ body {
   }
   /* config aprsentação Dev Front */
 
+  /* Bordar da foto */
+    .border-foto-pessoal {
+      border: .5rem solid #7A8DBC ;
+      border-radius: 1rem;
+      padding: 1rem;
+    }
+
+    .border-foto-pessoal img {
+      margin-top: -5rem;
+      margin-left: -2rem;
+      margin-bottom: 1rem;
+    }
+  /* Bordar da foto */
+
+
+
   /* Config Botão Github */
 .botaoPrimario {
   background: #192C57 !important;
