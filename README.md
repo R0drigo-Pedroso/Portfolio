@@ -29,7 +29,7 @@ Contribuições são bem-vindas! Caso queira sugerir melhorias, correções de b
 
 - Email: rodrigo.pedrososost@gmail.com
 - LinkedIn: [seu perfil no LinkedIn](https://www.linkedin.com/in/rodrigo-pedros0/)
-- Website: [seuwebsite.com](https://www.seuwebsite.com)
+- Website: [seuwebsite.com](https://r0drigo-pedroso.github.io/Portfolio/)
 
 Fique à vontade para entrar em contato para discussões, oportunidades de trabalho ou qualquer outra questão relacionada ao portfólio.
 
