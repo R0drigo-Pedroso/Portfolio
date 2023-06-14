@@ -55,6 +55,10 @@ header h2 span {
   margin: 0 0 0 .3rem;
 }
 
+
+.logoRP {
+  width: 12rem;
+}
 /* Final Configurações header (Cabeçalho) */
 
 
@@ -80,12 +84,7 @@ body {
   background-size: cover;
 }
 
-h1 {
-  text-transform: uppercase;
-  font-size: 3.5rem !important;
-  font-weight: 700 !important;
-}
-
+/* config aprsentação Dev Front */
   .textodevFrontEnd {
     background: #192C57;
     color: #CDD4E9;
@@ -93,33 +92,21 @@ h1 {
     border-radius: 5px;
 
     font-size: 1.5rem;
-    /* box-shadow:#203973 1.95px 1.95px 2.6px; */
     box-shadow: #203973 2.4px 2.4px 3.2px;
   }
+  /* config aprsentação Dev Front */
 
-.border-foto-pessoal {
-  border: #7A8DBC solid;
-  border-left: #7A8DBC;
-  padding-bottom: 2rem;
-  border-radius: 10px;
-  border-width: 10px;
-}
-
-  .border-foto-pessoal img {
-    margin-top: -5rem;
-    width: 26rem;
-    border-radius: 10px;
-  }
-
+  /* Config Botão Github */
 .botaoPrimario {
   background: #192C57 !important;
   color: #CDD4E9 !important;
 }
-
   .botaoPrimario:hover {
     background: #203973 !important;
   }
+/* Config Botão Github */
 
+  /* Config Botão Download */
 .botaoSegundario {
   background: #B2D3A8 !important;
   color: #192C57 !important;
@@ -128,14 +115,7 @@ h1 {
     background: #8FAA87 !important;
     color: #192c57 !important;
   }
-
-.linkRedes a {
-  width: 2.3rem;
-}
-
-.facebook{
-  width: 2rem !important;
-}
+/* Config Botão Download */
 
 /* Hard Skill */
 .iconsSkill img {
@@ -157,18 +137,6 @@ h1 {
   cursor: pointer;
 }
  
-/* Cards */
-.cardsBock {
-  border: #7A8DBC 8px solid !important;
-  width: 26rem;
-  margin: auto;
-  margin-top: 1rem;
-}
-
-.skillFrontEnd li {
-  line-height: 2rem;
-}
-
 
 /* Hero Footer */
 .bg-Hero {
