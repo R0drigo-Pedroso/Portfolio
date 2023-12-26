@@ -24,7 +24,7 @@ header {
   text-transform: uppercase;
 
     position: sticky;
-    background: #ededed;
+/*     background: #ededed; */
     z-index: 1;
     top: 0;
     left: 0;
@@ -90,7 +90,7 @@ p {
 }
 
 body {
-  background-image: url("../img/bg/composicao-geometrica.jpg");
+  /* background-image: url("../img/bg/composicao-geometrica.jpg"); */
   background-attachment: fixed;
   background-size: cover;
 }
