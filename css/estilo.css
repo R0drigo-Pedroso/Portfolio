@@ -1,20 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&display=swap');
 
 /* Configurações para zera css */
-*, ::after, ::before {
+*,
+*::after,
+*::before {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: inherit;
+  font-family: inherit; }
+
+html {
+  font-size: 1rem;
+  scroll-behavior: smooth; 
 }
+  
+
 
 img {
   width: 100%;
 }
 
-html {
-  font-family: 'Nunito Sans';
-  font-size: 16px;
-}
 /* Final da Configurações para zera css */
 
 /* Configurações header (Cabeçalho) */
@@ -24,7 +29,7 @@ header {
   text-transform: uppercase;
 
     position: sticky;
-/*     background: #ededed; */
+    background: #ededed;
     z-index: 1;
     top: 0;
     left: 0;
@@ -90,7 +95,7 @@ p {
 }
 
 body {
-  /* background-image: url("../img/bg/composicao-geometrica.jpg"); */
+  background-image: url("../img/bg/composicao-geometrica.jpg");
   background-attachment: fixed;
   background-size: cover;
 }
