@@ -13,8 +13,6 @@ html {
   font-size: 1rem;
   scroll-behavior: smooth; 
 }
-  
-
 
 img {
   width: 100%;
@@ -29,7 +27,7 @@ header {
   text-transform: uppercase;
 
     position: sticky;
-    background: #ededed;
+    background: white;
     z-index: 1;
     top: 0;
     left: 0;
@@ -73,6 +71,31 @@ header h2 span {
 }
 /* Final Configurações header (Cabeçalho) */
 
+/* Button Padrão */
+
+.btn-pd {
+  padding: 1rem 6rem !important;
+  font-size: 1.5rem !important;
+}
+
+.btn {
+  background: #7843e9 !important;
+  color: #fff !important;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: inline-block;
+  font-weight: 700 !important;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px 0 rgba(0,0,0,.15) !important;
+  transition: transform .3s;
+}
+
+.btn:hover {
+  transform: translateY(3px);
+}
+
+/* Final buttom Padrão */
+
 
 /* Estilização do Conteúdo */
 main {
@@ -93,13 +116,6 @@ main span {
 p {
   font-size: 1.3rem;
 }
-
-body {
-  background-image: url("../img/bg/composicao-geometrica.jpg");
-  background-attachment: fixed;
-  background-size: cover;
-}
-
 /* config aprsentação Dev Front */
   .textodevFrontEnd {
     background: #192C57;
