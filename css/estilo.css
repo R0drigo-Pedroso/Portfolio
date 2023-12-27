@@ -71,7 +71,6 @@ nav a:hover {
 }
 
 .btn-pd-info {
-  margin: 1rem 0 0 0;
   padding: .6rem 1.5rem !important;
   font-size: 1rem !important;
 }
@@ -116,13 +115,6 @@ main span {
   margin-top: 4rem; 
 }
 
-.about-block-info-1 {
-  margin-right: 2rem;
-}
-.about-block-info-2 {
-  margin-left: 2rem;
-}
-
 .about-block-info-skills {
   display: flex;
   flex-wrap: wrap;
@@ -140,6 +132,9 @@ main span {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
+.form-control.error {
+  border-color: red !important;
+}
 
 /* Paragrafo no geral */
 p {
@@ -148,8 +143,8 @@ p {
 
 /* project-album-img */
 .project-album-img {
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
 
   border-radius: .5rem;
 
@@ -182,7 +177,7 @@ p {
 } 
 
 .projet-Five {
-  background-image: url('../img/projetosFotos/colajob.jpg');
+  background-image: url('../img/projetosFotos/colajob.png');
   background-position: center;
   background-size: cover;
 } 
@@ -240,8 +235,36 @@ p {
   background: #131E3A;
 }
 
+.fotter-block-info {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+
 footer {
-  background: #0C111E;
+  height: 100%;
+  background: #000000;
+  color: #fff;
+}
+
+footer p {
+  font-size: .9rem;
+}
+
+footer h2 {
+  font-size: 1.5rem;
+}
+
+form {
+  width: 100%;
+  padding: 1.5rem;
+
+  border-radius: .5rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px -8px 16px -8px;
+}
+
+.form-section {
+  display: flex;
+  justify-content: center;
 }
 
 @media (max-width: 600px)  {
@@ -255,5 +278,10 @@ footer {
 
   .mSobre {
     margin: 2rem 0 0 0;
+  }
+}
+@media (min-width: 600px) {
+  form {
+    width: 60%;
   }
 }
