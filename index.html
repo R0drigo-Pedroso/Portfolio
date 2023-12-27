@@ -8,11 +8,13 @@
     <meta name="description"
         content="Sou um desenvolvedor front-end apaixonado por criar experiências incríveis na web. Neste portfólio, você encontrará uma coleção dos meus projetos, demonstrando minha habilidade em HTML, CSS, JavaScript e frameworks como React.js. Explore meu trabalho e entre em contato para colaborações e oportunidades emocionantes.">
 
-    <link rel="shortcut icon" href="img/favicon/rodrigo-pedrosoFavicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon/rodrigo-pedroso-logo.png" type="image/x-icon">
 
     <title>Rodrigo Pedroso - Portfólio</title>
 
     <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="stylesheet" href="css/animacaoSeta.css">
+    <link rel="stylesheet" href="css/redeSocialLateral.css">
 
     <link href="./css/bootstrap.min.css" rel="stylesheet">
 
@@ -25,9 +27,9 @@
     <header class="container pt-2">
         <section class="navbar navbar-expand-lg">
             <section class="container-fluid">
-
-                <img class="logoRP" src="img/logo/rodrigo-pedroso.png" alt="Logo Rodrigo pedroso">
-
+                <a href="/index.html">
+                    <img class="logoRP" src="img/logo/rodrigo-pedroso-logo.png" alt="Rodrigo pedroso">
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -41,7 +43,7 @@
                                 <a class="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#sobreMim">sobre mim</a>
+                                <a class="nav-link" href="#sobreMim">Quem Sou</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#projetos">Projetos</a>
@@ -59,294 +61,367 @@
     <!-- final do cabeçalho -->
 
     <main>
-        <!--  <section class="container">
-            <section class="row flex-lg-row-reverse align-items-center m-auto">
-                <section class="col-10 col-sm-8 col-lg-6 m-auto px-0">
-                    <img src="img/fotos/imgem_3d_sentada_min.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500"
-                        loading="lazy">
-                </section>
-                <section class="col-lg-6 col-sm-12">
-                    <span>Olá, me chamo</span>
+        <section class="hero-start">
+            <div class="rsLateral">
+                <div class="box">
+                    <div class="icon instagram">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                        <a href="https://www.instagram.com/rodrig0.pedros0/" alt="Link para Acessar instagram" target="_blank">
+                            <img src="img/redesSocias/instagram_512.png" alt="">
+                        </a>
+                    </div>
+                </div>
 
-                    <h1 class="display-4 fw-bold text-uppercase" id="textoPrincipal"></h1>
+                <div class="box">
+                    <div class="icon whatsapp">
+                        <ion-icon name="logo-whatsapp"></ion-icon>
+                        <a href="https://wa.me/5511987618534?text=Ol%C3%A1%21+Seja+bem-vindo%21+Estou+%C3%A0+disposi%C3%A7%C3%A3o+para+ajudar+no+que+precisar.+Se+voc%C3%AA+tem+alguma+pergunta%2C+deseja+discutir+um+projeto+ou+simplesmente+bater+um+papo%2C+%C3%A9+s%C3%B3+me+chamar+no+WhatsApp.+Estou+ansioso+para+te+conhecer+e+iniciar+uma+conversa+produtiva%21"
+                            alt="Link para Acessar WhatsApp" target="_blank">
+                            <img src="img/redesSocias/whatsapp_512.png" alt="">
+                        </a>
+                    </div>
+                </div>
 
-                    <p class="textodevFrontEnd">Desenvolvedor Front-end</p>
+                <div class="box">
+                    <div class="icon facebook">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                        <img src="img/redesSocias/facebook_512.png" alt="">
+                    </div>
+                </div>
 
-                    <p>
-                        Sou apaixonado por criar experiências incríveis. Tenho experiência em projetos acadêmicos,
-                        como o Colajob e o Mobile Fala no mic. Possuo habilidades em HTML, CSS, Bootstrap, JavaScript e React.js, com foco especial na
-                        experiência do usuário.
-                    </p>
+                <div class="box">
+                    <div class="icon linkedin">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                        <a href="https://www.linkedin.com/in/rodrigo-pedros0/" alt="Link para Acessar LinkedIn" target="_blank">
+                            <img src="img/redesSocias/linkedin_512.png" alt="">
+                        </a>
+                    </div>
+                </div>
 
-                    <p>
+                <div class="box">
+                    <div class="icon github">
+                        <ion-icon name="logo-github"></ion-icon>
+                        <img src="img/redesSocias/github_512.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <section class="text-center">
+                <h1 class="display-4 fw-bold text-body-emphasis text-uppercase">Oi, meu nome é Rodrigo Pedroso</h1>
+                <div class="col-lg-6 mx-auto">
+                    <p class="lead my-4">
                         Profissional apaixonado por tecnologia, dedicado a manter-se atualizado nas últimas tendências. Com seis meses de experiência
                         em uma startup financeira, adquiri conhecimentos valiosos. Busco enfrentar desafios e agregar valor ao trabalho,
                         compartilhando ativamente meu aprendizado para melhorar o desempenho da equipe.
                     </p>
-
-                    <section class="d-grid gap-2 d-md-flex justify-content-md-start">
-                        <a type="button" class="btn botaoPrimario btn-lg px-5 me-md-2 fw-bolder border-0" href="https://github.com/R0drigo-Pedroso"
-                            target="_blank">Github <i class="bi bi-github"></i></a>
-                        <a type="button" class="btn botaoSegundario btn-lg px-5 fw-bolder border-0" href="./cv/rodrigo-pedroso-dos-santos.pdf"
-                            download>Download CV <i class="bi bi-file-earmark-arrow-down-fill"></i></a>
-                    </section>
-                </section>
-            </section>
-        </section> -->
-
-        <section class="px-4 pt-5 my-5 text-center">
-            <h1 class="display-4 fw-bold text-body-emphasis text-uppercase">Oi, meu nome é Rodrigo Pedroso</h1>
-            <div class="col-lg-6 mx-auto">
-                <p class="lead mb-4">
-                    Profissional apaixonado por tecnologia, dedicado a manter-se atualizado nas últimas tendências. Com seis meses de experiência
-                    em uma startup financeira, adquiri conhecimentos valiosos. Busco enfrentar desafios e agregar valor ao trabalho,
-                    compartilhando ativamente meu aprendizado para melhorar o desempenho da equipe.
-                </p>
-                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-                    <a class="btn btn-pd" href="#projetos">Projetos</a>
+                    <a href="#projetos" class="btn btn-pd rounded-3">Projetos</a>
                 </div>
-            </div>
+                <a href="#sobreMim">
+                    <div class="container-seta">
+                        <div class="chevron"></div>
+                        <div class="chevron"></div>
+                        <div class="chevron"></div>
+                    </div>
+                </a>
+            </section>
         </section>
-
         <!-- Quem sou - Sobre mim -->
-        <section class="container mt-3 pt-5" id="sobreMim">
-            <section class="col d-lg-flex mSobre">
-                <section class="col-md-5 order-md-1 m-auto">
-                    <div class="border-foto-pessoal">
-                        <img class="rounded-2" src="img/fotos/perfilRodrigoPedroso.png" alt="">
+        <div id="sobreMim"></div>
+        <section class="container about-block-info-title">
+            <section class="text-center">
+                <h2 class="display-6 fw-bold text-body-emphasis text-uppercase">Quem Sou</h2>
+                <svg xmlns="http://www.w3.org/2000/svg" width="175" height="5" viewBox="0 0 175 5">
+                    <line id="Linha_4" data-name="Linha 4" x2="170" transform="translate(2.5 2.5)" fill="none" stroke="#cdd4e9" stroke-linecap="round"
+                        stroke-width="3" />
+                </svg>
+                <div class="col-lg-6 mx-auto">
+                    <p class="lead my-4">
+                        Neste espaço, você terá acesso a detalhes adicionais sobre quem sou, as atividades que desempenho e, sobretudo, às
+                        minhas
+                        competências atuais, especialmente no âmbito da programação e tecnologia.
+                    </p>
+                </div>
+            </section>
+
+            <!-- Dois bloco de informação -->
+            <section class="col d-lg-flex about-block-info">
+                <section class="col col-md-12 col-lg-6 order-md-2  about-block-info-1">
+
+                    <h4 class="fw-bold text-body-emphasis my-4">Unindo Paixão e Tecnologia!</h4>
+
+                    <p>
+                        Olá! sou um desenvolvedor front-end apaixonado por tecnologia e UX. Atualmente moro em São Paulo e trabalho como autônomo.
+                    </p>
+
+                    <p>
+                        Sou um profissional comunicativo, criativo e sempre busco estar atualizado, alimentando minha curiosidade intelectual.
+                        Estou
+                        sempre em busca de novas oportunidades para aplicar minha expertise e habilidades front-end.
+                    </p>
+
+                    <p>
+                        Tenho uma forte crença na importância da tecnologia para melhorar a vida das pessoas. Acredito que a UX pode ser uma
+                        ferramenta poderosa para tornar a tecnologia mais acessível e inclusiva.
+                    </p>
+
+                    <p>
+                        Estou sempre pronto para ajudar outras pessoas a aprender e crescer na área de tecnologia. Acredito que o conhecimento
+                        deve
+                        ser compartilhado e que todos têm o potencial de se tornarem excelentes desenvolvedores.
+                    </p>
+                    <a href="#projetos" class="btn btn-pd-info rounded-3">Contato</a>
+                </section>
+
+                <section class="col col-md-12 col-lg-6 order-md-2 about-block-info-2">
+
+                    <h4 class="fw-bold text-body-emphasis my-4">Minhas habilidades</h4>
+
+                    <div class="about-block-info-skills">
+                        <div>html</div>
+                        <div>css</div>
+                        <div class="text-capitalize">javaScript</div>
+                        <div class="text-capitalize">Bootstrap</div>
+                        <div>git</div>
+                        <div>seo</div>
+                        <div class="text-capitalize">Figma</div>
+                        <div class="text-capitalize">github</div>
+                        <div class="text-capitalize">Node.js</div>
+                        <div class="text-capitalize">Responsive Design</div>
+                        <div class="text-capitalize">React / React Native</div>
+                        <div class="text-capitalize">MySql</div>
+                        <div class="text-capitalize">Firebase</div>
                     </div>
                 </section>
+            </section>
+            <!-- Final Quem sou - Sobre mim -->
 
-                <section class="col col-md-12 col-lg-6 order-md-2">
-                    <section class="col-6 col-md-6 col-sm-6 col-lg-5 my-4">
-                        <span>Sobre mim</span>
+            <!-- Cards de Projetos -->
+            <div id="projetos"></div>
+            <section class="container about-block-info-title">
+                <section class="text-center">
+                    <h2 class="display-6 fw-bold text-body-emphasis text-uppercase">Projetos</h1>
                         <svg xmlns="http://www.w3.org/2000/svg" width="175" height="5" viewBox="0 0 175 5">
                             <line id="Linha_4" data-name="Linha 4" x2="170" transform="translate(2.5 2.5)" fill="none" stroke="#cdd4e9"
-                                stroke-linecap="round" stroke-width="5" />
+                                stroke-linecap="round" stroke-width="3" />
                         </svg>
-                    </section>
-
-                    <p>
-                        Olá! Meu nome é Rodrigo Pedroso, tenho 31 anos e sou apaixonado por tecnologia, especialmente pelo desenvolvimento front-end
-                        com ênfase em UX (experiência do usuário). Atualmente moro em São Paulo e trabalho como autônomo.
-                    </p>
-
-                    <p>
-                        Possuo formação técnica em Informática para Internet pelo Senac Penha e estou cursando Tecnologia em Sistemas para Internet no
-                        Centro Universitário Senac. Sou comunicativo, criativo e sempre busco estar atualizado, alimentando minha curiosidade
-                        intelectual.
-                    </p>
-
-                    <p>
-                        Além da minha paixão pela tecnologia, também tenho um amor especial pelo meu gato, o adorável "Thomas". Ele é meu companheiro
-                        fiel enquanto mergulho em projetos desafiadores.
-                    </p>
-
-                    <p>
-                        Estou em constante busca por oportunidades emocionantes e desafiadoras no campo da tecnologia, onde posso aplicar minha
-                        expertise e habilidades front-end. Se você está em busca de um profissional comprometido, curioso e apaixonado, estou pronto
-                        para embarcar em novos projetos. Vamos criar algo incrível juntos!
-                    </p>
-
-                    <section class="d-grid gap-2 d-md-flex justify-content-md-start">
-                        <button type="button" class="btn botaoPrimario btn-lg px-5 me-md-2 fw-bolder border-0"><a
-                                class="text-decoration-none text-white" href="" target="_blank">LinkedIn <i class="bi bi-linkedin"></i></a></button>
-                        <a href="#portfolio" type="button" class="btn botaoSegundario btn-lg px-5 fw-bolder border-0">Portfolio <i
-                                class="bi bi-journals"></i></a>
-                    </section>
-
-                    <section class=" d-flex d-grid gap-2 justify-content-md-start justify-content-center my-4 linkRedes">
-
-                        <ul class="list-inline">
-                            <li class="list-inline-item">
-                                <a href="https://wa.me/5511987618534?text=Ol%C3%A1%21+Seja+bem-vindo%21+Estou+%C3%A0+disposi%C3%A7%C3%A3o+para+ajudar+no+que+precisar.+Se+voc%C3%AA+tem+alguma+pergunta%2C+deseja+discutir+um+projeto+ou+simplesmente+bater+um+papo%2C+%C3%A9+s%C3%B3+me+chamar+no+WhatsApp.+Estou+ansioso+para+te+conhecer+e+iniciar+uma+conversa+produtiva%21"
-                                    alt="Link para Acessar WhatsApp" class="text-black p-4 m-auto" target="_blank">
-                                    <i class="bi bi-whatsapp fs-2"></i>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="https://www.linkedin.com/in/rodrigo-pedros0/" alt="Link para Acessar LinkedIn" class="text-black p-4 m-auto"
-                                    target="_blank">
-                                    <i class="bi bi-linkedin fs-2"></i>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="mailto:rodrigo.pedrosost@gmail.com?subject=Contato Portfólio" alt="Link para enviar email"
-                                    class="text-black p-4 m-auto" target="_blank">
-                                    <i class="bi bi-envelope-fill fs-2"></i>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="https://www.instagram.com/rodrig0.pedros0/" alt="Link para Acessar instagram" class="text-black p-4 m-auto"
-                                    target="_blank">
-                                    <i class="bi bi-instagram fs-2"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </section>
+                        <div class="col-lg-6 mx-auto">
+                            <p class="lead my-4">
+                                Aqui estão alguns dos projetos que elaborei, tanto pessoais quanto para clientes, e cada um deles inclui sua própria
+                                análise de caso.
+                            </p>
+                        </div>
                 </section>
-            </section>
-        </section>
-        <!-- Final Quem sou - Sobre mim -->
+                <!-- Final do titulo dos trabalhos -->
 
-        <!-- Cards de Projetos -->
-        <section class="container pt-5" id="projetos">
-            <section class="row featurette mSobre">
-                <section class="col-md-7 order-md-2">
-                    <section class="col-6 col-md-6 col-sm-6 col-lg-5">
-                        <span>Projetos</span>
-                    </section>
-                </section>
-            </section>
-            <!-- Final do titulo dos trabalhos -->
+                <!-- Janela de cada cards -->
+                <section class="album py-5">
 
-            <!-- Janela de cada cards -->
-            <section class="album py-5">
-                <section class="container">
-                    <section class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 g-3">
+                    <div class="row featurette my-5 d-flex align-items-center">
+                        <div class="col-md-7 order-md-2 p-5">
+                            <h2 class="featurette-heading fw-normal lh-1">Agencia Colors</h2>
+                            <p class="lead">
+                                Desenvolvi um projeto cativante no curso de Informática para Internet do Senac Penha, destacando o uso criativo de
+                                HTML e CSS, com ênfase no efeito parallax para uma experiência do usuário envolvente. Sob a orientação do Professor
+                                Klaibert Miranda, pude aplicar meus conhecimentos de forma prática, garantindo máxima legibilidade.
+                            </p>
+                            <a href="pages/projectOne.html" class="btn btn-pd-info rounded-3">Saiba mais</a>
+                        </div>
+                        <div class="col-md-5 order-md-1 project-album-img projet-One">
+                        </div>
+                    </div>
 
-                        <!-- Card 01 -->
-                        <div class="col card-group">
-                            <div class="card shadow-sm">
-                                <div class="bd-placeholder-img card-img-top">
-                                    <img src="img/projetosFotos/colajob.jpg" alt="Foto de capa do Projeto Colajob">
-                                </div>
-                                <div class="card-body">
-                                    <h2 class="fs-4 fw-bold">Projeto ColaJobs</h2>
-                                    <p class="card-text">
-                                        plataforma gratuita para contratação de programadores. Crie projetos, compartilhe vagas e encontre talentos.
-                                    </p>
-                                </div>
+                    <div class="row featurette my-5 d-flex align-items-center">
+                        <div class="col-md-7 order-md-2">
+                            <h2 class="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span class="text-body-secondary">See for
+                                    yourself.</span></h2>
+                            <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would
+                                work with some actual real-world content in place.</p>
+                            <a href="#projetos" class="btn btn-pd-info rounded-3">Contato</a>
+                        </div>
+                        <div class="col-md-5 order-md-1 project-album-img projet-Two">
+                        </div>
+                    </div>
 
-                                <div class="card-footer border-0 d-flex justify-content-between align-items-center mb-2">
-                                    <div class="btn-group-sm">
-                                        <button type="button" class="btn fw-bolder fs-5 botaoPrimario col" data-bs-target="#cardsOne"
-                                            data-bs-toggle="modal">Saiba <i class="bi bi-info-circle-fill"></i></button>
-                                        <a href="https://github.com/R0drigo-Pedroso/projeto_back_end/tree/main" type="button"
-                                            class="btn fw-bolder fs-5 botaoSegundario col" target="_blank"> Github <i class="bi bi-github"></i></a>
+                    <div class="row featurette my-5 d-flex align-items-center">
+                        <div class="col-md-7 order-md-2">
+                            <h2 class="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span class="text-body-secondary">See for
+                                    yourself.</span></h2>
+                            <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would
+                                work with some actual real-world content in place.</p>
+                        </div>
+                        <div class="col-md-5 order-md-1 project-album-img projet-Three">
+                        </div>
+                    </div>
+
+                    <div class="row featurette my-5 d-flex align-items-center">
+                        <div class="col-md-7 order-md-2">
+                            <h2 class="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span class="text-body-secondary">See for
+                                    yourself.</span></h2>
+                            <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would
+                                work with some actual real-world content in place.</p>
+                        </div>
+                        <div class="col-md-5 order-md-1 project-album-img projet-Four">
+                        </div>
+                    </div>
+
+                    <div class="row featurette my-5 d-flex align-items-center">
+                        <div class="col-md-7 order-md-2">
+                            <h2 class="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span class="text-body-secondary">See for
+                                    yourself.</span></h2>
+                            <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would
+                                work with some actual real-world content in place.</p>
+                        </div>
+                        <div class="col-md-5 order-md-1 project-album-img projet-Five">
+                        </div>
+                    </div>
+
+                    <section class="container">
+                        <section class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 g-3">
+
+                            <!-- Card 01 -->
+                            <div class="col card-group">
+                                <div class="card shadow-sm">
+                                    <div class="bd-placeholder-img card-img-top">
+                                        <img src="img/projetosFotos/colajob.jpg" alt="Foto de capa do Projeto Colajob">
+                                    </div>
+                                    <div class="card-body">
+                                        <h2 class="fs-4 fw-bold">Projeto ColaJobs</h2>
+                                        <p class="card-text">
+                                            plataforma gratuita para contratação de programadores. Crie projetos, compartilhe vagas e encontre
+                                            talentos.
+                                        </p>
+                                    </div>
+
+                                    <div class="card-footer border-0 d-flex justify-content-between align-items-center mb-2">
+                                        <div class="btn-group-sm">
+                                            <button type="button" class="btn fw-bolder fs-5 botaoPrimario col" data-bs-target="#cardsOne"
+                                                data-bs-toggle="modal">Saiba <i class="bi bi-info-circle-fill"></i></button>
+                                            <a href="https://github.com/R0drigo-Pedroso/projeto_back_end/tree/main" type="button"
+                                                class="btn fw-bolder fs-5 botaoSegundario col" target="_blank"> Github <i
+                                                    class="bi bi-github"></i></a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <!-- Final Card 01 -->
+                            <!-- Final Card 01 -->
 
-                        <!-- Card 02 -->
-                        <div class="col card-group">
-                            <div class="card shadow-sm">
-                                <div class="bd-placeholder-img card-img-top">
-                                    <img src="img/projetosFotos/petsAmore.png" alt="Foto de capa do Projeto Pets Amore">
-                                </div>
-
-                                <div class="card-body">
-                                    <h2 class="fs-4 fw-bold">Projeto PetsAmore</h2>
-                                    <p class="card-text">
-                                        Plataforma web para doação de animais de estimação, conectando interessados em adotar e doar, promovendo o
-                                        bem-estar animal.
-                                    </p>
-                                </div>
-
-                                <div class="card-footer border-0 d-flex justify-content-between align-items-center mb-2">
-                                    <div class="btn-group-sm">
-                                        <button type="button" class="btn fw-bolder fs-5 botaoPrimario col" data-bs-target="#cardsTwo"
-                                            data-bs-toggle="modal">Saiba <i class="bi bi-info-circle-fill"></i></button>
-                                        <a href="https://github.com/R0drigo-Pedroso/Projeto_Doacao_Pet" type=" button"
-                                            class="btn fw-bolder fs-5 botaoSegundario col" target="_blank">Github <i class="bi bi-github"></i></a>
+                            <!-- Card 02 -->
+                            <div class="col card-group">
+                                <div class="card shadow-sm">
+                                    <div class="bd-placeholder-img card-img-top">
+                                        <img src="img/projetosFotos/petsAmore.png" alt="Foto de capa do Projeto Pets Amore">
                                     </div>
-                                </div>
 
-                            </div>
-                        </div>
-                        <!-- Final Card 02 -->
-
-                        <!-- Card 03 Fala no mic -->
-                        <div class="col card-group">
-                            <div class="card shadow-sm">
-                                <div class="bd-placeholder-img card-img-top">
-                                    <img src="img/projetosFotos/falaMic.png" alt="Foto de capa do Projeto Fala no Mic">
-                                </div>
-
-                                <div class="card-body">
-                                    <h2 class="fs-4 fw-bold">Projeto Fala no Mic</h2>
-                                    <p class="card-text">
-                                        Nossa plataforma é dedicada exclusivamente ao universo hip hop, reunindo eventos, artistas e fãs em um só
-                                        lugar. Promovemos a cultura e valorizamos a comunidade através de experiências únicas e autênticas.
-                                    </p>
-                                </div>
-
-                                <div class="card-footer border-0 d-flex justify-content-between align-items-center mb-2">
-                                    <div class="btn-group-sm">
-                                        <button type="button" class="btn fw-bolder fs-5 botaoPrimario col" data-bs-target="#cardsThree"
-                                            data-bs-toggle="modal">Saiba <i class="bi bi-info-circle-fill"></i></button>
-                                        <a href="https://github.com/R0drigo-Pedroso/Projeto-Fala-no-Mic-Final" type=" button"
-                                            class="btn fw-bolder fs-5 botaoSegundario col" target="_blank">Github <i class="bi bi-github"></i></a>
+                                    <div class="card-body">
+                                        <h2 class="fs-4 fw-bold">Projeto PetsAmore</h2>
+                                        <p class="card-text">
+                                            Plataforma web para doação de animais de estimação, conectando interessados em adotar e doar, promovendo o
+                                            bem-estar animal.
+                                        </p>
                                     </div>
+
+                                    <div class="card-footer border-0 d-flex justify-content-between align-items-center mb-2">
+                                        <div class="btn-group-sm">
+                                            <button type="button" class="btn fw-bolder fs-5 botaoPrimario col" data-bs-target="#cardsTwo"
+                                                data-bs-toggle="modal">Saiba <i class="bi bi-info-circle-fill"></i></button>
+                                            <a href="https://github.com/R0drigo-Pedroso/Projeto_Doacao_Pet" type=" button"
+                                                class="btn fw-bolder fs-5 botaoSegundario col" target="_blank">Github <i class="bi bi-github"></i></a>
+                                        </div>
+                                    </div>
+
                                 </div>
                             </div>
-                        </div>
-                        <!-- Final card 03 fala no mic -->
+                            <!-- Final Card 02 -->
 
-                        <!-- Card 04 Agencia Colors -->
-                        <div class="col card-group">
-                            <div class="card shadow-sm">
-                                <div class="bd-placeholder-img card-img-top">
-                                    <img src="img/projetosFotos/agenciaColors.png" alt="Foto de capa do Projeto agencia Colors">
-                                </div>
-                                <div class="card-body">
-                                    <h2 class="fs-4 fw-bold">Agencia Colors</h2>
-                                    <p class="card-text">
-                                        Projeto desenvolvido no curso de Informática para Internet do Senac Penha, utilizando HTML e CSS. Destaque
-                                        para o efeito parallax e foco na experiência do usuário e legibilidade. Oportunidade de aplicar
-                                        conhecimentos
-                                        e habilidades, sob orientação do Professor Klaibert Miranda.
-                                    </p>
-                                </div>
+                            <!-- Card 03 Fala no mic -->
+                            <div class="col card-group">
+                                <div class="card shadow-sm">
+                                    <div class="bd-placeholder-img card-img-top">
+                                        <img src="img/projetosFotos/falaMic.png" alt="Foto de capa do Projeto Fala no Mic">
+                                    </div>
 
-                                <div class="card-footer border-0 d-flex justify-content-between align-items-center mb-2">
-                                    <div class="btn-group-sm">
-                                        <button type="button" class="btn fw-bolder fs-5 botaoPrimario col" data-bs-target="#cardsFour"
-                                            data-bs-toggle="modal">Saiba <i class="bi bi-info-circle-fill"></i></button>
-                                        <a href="https://github.com/R0drigo-Pedroso/agencia-colors" type=" button"
-                                            class="btn fw-bolder fs-5 botaoSegundario col" target="_blank">Github <i class="bi bi-github"></i></a>
+                                    <div class="card-body">
+                                        <h2 class="fs-4 fw-bold">Projeto Fala no Mic</h2>
+                                        <p class="card-text">
+                                            Nossa plataforma é dedicada exclusivamente ao universo hip hop, reunindo eventos, artistas e fãs em um só
+                                            lugar. Promovemos a cultura e valorizamos a comunidade através de experiências únicas e autênticas.
+                                        </p>
+                                    </div>
+
+                                    <div class="card-footer border-0 d-flex justify-content-between align-items-center mb-2">
+                                        <div class="btn-group-sm">
+                                            <button type="button" class="btn fw-bolder fs-5 botaoPrimario col" data-bs-target="#cardsThree"
+                                                data-bs-toggle="modal">Saiba <i class="bi bi-info-circle-fill"></i></button>
+                                            <a href="https://github.com/R0drigo-Pedroso/Projeto-Fala-no-Mic-Final" type=" button"
+                                                class="btn fw-bolder fs-5 botaoSegundario col" target="_blank">Github <i class="bi bi-github"></i></a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <!-- Final card 04 -->
+                            <!-- Final card 03 fala no mic -->
 
-                        <!-- Card 05 ChocoNaty -->
-                        <div class="col card-group">
-                            <div class="card shadow-sm">
-                                <div class="bd-placeholder-img card-img-top">
-                                    <img src="img/projetosFotos/ChocoNaty.png" alt="Foto de capa do Projeto agencia Colors">
-                                </div>
-                                <div class="card-body">
-                                    <h2 class="fs-4 fw-bold">Confeitaria ChocoNaty</h2>
-                                    <p class="card-text">
-                                        O projeto da ChocoNaty é um exemplo de site de uma confeitaria, com foco na apresentação de bolos e doces
-                                        temáticos. O uso do HTML, CSS, Bootstrap e JavaScript permite a criação de uma interface bonita e
-                                        responsiva,
-                                        além de possibilitar a personalização e interatividade. Esperamos que você se delicie com nossas criações
-                                        e
-                                        que possamos fazer parte dos momentos especiais da sua vida. Entre em contato conosco para fazer seu
-                                        pedido e
-                                        adoçar sua celebração!
-                                    </p>
-                                </div>
+                            <!-- Card 04 Agencia Colors -->
+                            <div class="col card-group">
+                                <div class="card shadow-sm">
+                                    <div class="bd-placeholder-img card-img-top">
+                                        <img src="img/projetosFotos/agenciaColors.png" alt="Foto de capa do Projeto agencia Colors">
+                                    </div>
+                                    <div class="card-body">
+                                        <h2 class="fs-4 fw-bold">Agencia Colors</h2>
+                                        <p class="card-text">
+                                            Projeto desenvolvido no curso de Informática para Internet do Senac Penha, utilizando HTML e CSS. Destaque
+                                            para o efeito parallax e foco na experiência do usuário e legibilidade. Oportunidade de aplicar
+                                            conhecimentos
+                                            e habilidades, sob orientação do Professor Klaibert Miranda.
+                                        </p>
+                                    </div>
 
-                                <div class="card-footer border-0 d-flex justify-content-between align-items-center mb-2">
-                                    <div class="btn-group-sm">
-                                        <button type="button" class="btn fw-bolder fs-5 botaoPrimario col" data-bs-target="#cardsFive"
-                                            data-bs-toggle="modal">Saiba <i class="bi bi-info-circle-fill"></i></button>
-                                        <a href="https://github.com/R0drigo-Pedroso/ChocoNaty" type=" button"
-                                            class="btn fw-bolder fs-5 botaoSegundario col" target="_blank">Github <i class="bi bi-github"></i></a>
+                                    <div class="card-footer border-0 d-flex justify-content-between align-items-center mb-2">
+                                        <div class="btn-group-sm">
+                                            <button type="button" class="btn fw-bolder fs-5 botaoPrimario col" data-bs-target="#cardsFour"
+                                                data-bs-toggle="modal">Saiba <i class="bi bi-info-circle-fill"></i></button>
+                                            <a href="https://github.com/R0drigo-Pedroso/agencia-colors" type=" button"
+                                                class="btn fw-bolder fs-5 botaoSegundario col" target="_blank">Github <i class="bi bi-github"></i></a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <!-- Final card 04 -->
+                            <!-- Final card 04 -->
+
+                            <!-- Card 05 ChocoNaty -->
+                            <div class="col card-group">
+                                <div class="card shadow-sm">
+                                    <div class="bd-placeholder-img card-img-top">
+                                        <img src="img/projetosFotos/ChocoNaty.png" alt="Foto de capa do Projeto agencia Colors">
+                                    </div>
+                                    <div class="card-body">
+                                        <h2 class="fs-4 fw-bold">Confeitaria ChocoNaty</h2>
+                                        <p class="card-text">
+                                            O projeto da ChocoNaty é um exemplo de site de uma confeitaria, com foco na apresentação de bolos e doces
+                                            temáticos. O uso do HTML, CSS, Bootstrap e JavaScript permite a criação de uma interface bonita e
+                                            responsiva,
+                                            além de possibilitar a personalização e interatividade. Esperamos que você se delicie com nossas criações
+                                            e
+                                            que possamos fazer parte dos momentos especiais da sua vida. Entre em contato conosco para fazer seu
+                                            pedido e
+                                            adoçar sua celebração!
+                                        </p>
+                                    </div>
+
+                                    <div class="card-footer border-0 d-flex justify-content-between align-items-center mb-2">
+                                        <div class="btn-group-sm">
+                                            <button type="button" class="btn fw-bolder fs-5 botaoPrimario col" data-bs-target="#cardsFive"
+                                                data-bs-toggle="modal">Saiba <i class="bi bi-info-circle-fill"></i></button>
+                                            <a href="https://github.com/R0drigo-Pedroso/ChocoNaty" type=" button"
+                                                class="btn fw-bolder fs-5 botaoSegundario col" target="_blank">Github <i class="bi bi-github"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Final card 04 -->
 
 
-                        <!--
+                            <!--
                         <div class="col card-group">
                             <div class="card shadow-sm">
                                 <div class="bd-placeholder-img card-img-top">
@@ -389,63 +464,63 @@
                                 </div>
                             </div>
                         </div> -->
+                        </section>
                     </section>
                 </section>
             </section>
-        </section>
-        <!--final de cada janela carts  -->
+            <!--final de cada janela carts  -->
 
 
-        <!-- Começo hard skills e soft skills -->
-        <section class="container mt-3 pt-5" id="hardSoft">
-            <section class="row featurette mSobre">
-                <section class="col-md-7 order-md-2">
-                    <section class="col-6 col-md-6 col-sm-6 col-lg-6">
-                        <span>soft skills / hard skills </span>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="175" height="5" viewBox="0 0 175 5">
-                            <line id="Linha_4" data-name="Linha 4" x2="170" transform="translate(2.5 2.5)" fill="none" stroke="#cdd4e9"
-                                stroke-linecap="round" stroke-width="5" />
-                        </svg>
+            <!-- Começo hard skills e soft skills -->
+            <section class="container mt-3 pt-5" id="hardSoft">
+                <section class="row featurette mSobre">
+                    <section class="col-md-7 order-md-2">
+                        <section class="col-6 col-md-6 col-sm-6 col-lg-6">
+                            <span>soft skills / hard skills </span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="175" height="5" viewBox="0 0 175 5">
+                                <line id="Linha_4" data-name="Linha 4" x2="170" transform="translate(2.5 2.5)" fill="none" stroke="#cdd4e9"
+                                    stroke-linecap="round" stroke-width="5" />
+                            </svg>
+                        </section>
                     </section>
                 </section>
-            </section>
-            <section class="container">
-                <div class="row featurette">
-                    <div class="col-md-6 m-auto textSoftSkill">
-                        <ul>
-                            <li><a class="fs-4 text-decoration-none"><i class="bi bi-dot"></i>Responsabilidade</a></li>
-                            <li><a class="fs-4 text-decoration-none"><i class="bi bi-dot"></i>Pensamento Analítico</a></li>
-                            <li><a class="fs-4 text-decoration-none"><i class="bi bi-dot"></i>Colaboração</a></li>
-                            <li><a class="fs-4 text-decoration-none"><i class="bi bi-dot"></i>Flexibilidade</a></li>
-                            <li><a class="fs-4 text-decoration-none"><i class="bi bi-dot"></i>Resolução de Problemas</a></li>
-                            <li><a class="fs-4 text-decoration-none"><i class="bi bi-dot"></i>Pensamento Crítico</a></li>
-                            <li><a class="fs-4 text-decoration-none"><i class="bi bi-dot"></i>Trabalho em Equipe</a></li>
-                            <li><a class="fs-4 text-decoration-none"><i class="bi bi-dot"></i>Criatividade</a></li>
-                            <li><a class="fs-4 text-decoration-none"><i class="bi bi-dot"></i>Capacidade de Adaptação</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-6 text-center iconsSkill">
-                        <div>
-                            <img src="img/icons/html5.svg" alt="icone HTML">
-                            <img class="m-5" src="img/icons/css3.svg" alt="icone CSS">
-                            <img src="img/icons/bootstrap.svg" alt="icone Bootstrap">
+                <section class="container">
+                    <div class="row featurette">
+                        <div class="col-md-6 m-auto textSoftSkill">
+                            <ul>
+                                <li><a class="fs-4 text-decoration-none"><i class="bi bi-dot"></i>Responsabilidade</a></li>
+                                <li><a class="fs-4 text-decoration-none"><i class="bi bi-dot"></i>Pensamento Analítico</a></li>
+                                <li><a class="fs-4 text-decoration-none"><i class="bi bi-dot"></i>Colaboração</a></li>
+                                <li><a class="fs-4 text-decoration-none"><i class="bi bi-dot"></i>Flexibilidade</a></li>
+                                <li><a class="fs-4 text-decoration-none"><i class="bi bi-dot"></i>Resolução de Problemas</a></li>
+                                <li><a class="fs-4 text-decoration-none"><i class="bi bi-dot"></i>Pensamento Crítico</a></li>
+                                <li><a class="fs-4 text-decoration-none"><i class="bi bi-dot"></i>Trabalho em Equipe</a></li>
+                                <li><a class="fs-4 text-decoration-none"><i class="bi bi-dot"></i>Criatividade</a></li>
+                                <li><a class="fs-4 text-decoration-none"><i class="bi bi-dot"></i>Capacidade de Adaptação</a></li>
+                            </ul>
                         </div>
+                        <div class="col-md-6 text-center iconsSkill">
+                            <div>
+                                <img src="img/icons/html5.svg" alt="icone HTML">
+                                <img class="m-5" src="img/icons/css3.svg" alt="icone CSS">
+                                <img src="img/icons/bootstrap.svg" alt="icone Bootstrap">
+                            </div>
 
-                        <div class="my-5">
-                            <img src="img/icons/javascript.svg" alt="icone JavaScript">
-                            <img class="m-5" src="img/icons/react-js.svg" alt="icone React">
-                            <img src="img/icons/node-js.svg" alt="icone node.js">
-                        </div>
+                            <div class="my-5">
+                                <img src="img/icons/javascript.svg" alt="icone JavaScript">
+                                <img class="m-5" src="img/icons/react-js.svg" alt="icone React">
+                                <img src="img/icons/node-js.svg" alt="icone node.js">
+                            </div>
 
-                        <div>
-                            <img src="img/icons/git8.svg" alt="icone git">
-                            <img class="m-5" src="img/icons/github.svg" alt="icone GitHub">
-                            <img src="img/icons/figma.svg" alt="icone figma">
+                            <div>
+                                <img src="img/icons/git8.svg" alt="icone git">
+                                <img class="m-5" src="img/icons/github.svg" alt="icone GitHub">
+                                <img src="img/icons/figma.svg" alt="icone figma">
+                            </div>
                         </div>
                     </div>
-                </div>
+                </section>
             </section>
-        </section>
     </main>
 
     <div class="bg-Hero text-secondary px-4 py-5 text-center mt-5">

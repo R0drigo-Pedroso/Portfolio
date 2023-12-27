@@ -34,11 +34,6 @@ header {
     right: 0;
 }
 
-.contato-text {
-    border-radius: 5px;
-    background: #192C57;
-    color: #CDD4E9 !important;
-}
 
 li {
   margin: 0 5px;
@@ -47,63 +42,63 @@ li {
 
 nav a:hover {
   border-radius: 5px;
-  background: #192C57;
   color: #CDD4E9 !important;
-  transition: 0.5s ease-in-out;
-}
+  transition: 0.1s ease-in-out;
 
-header h2 {
-  background: #ffffff;
-  color: #192c57;
-  padding: .2rem 0 .2rem 2rem;
+  background: rgb(18,87,168);
+  background: linear-gradient(90deg, rgba(18,87,168,1) 0%, rgba(20,111,212,1) 100%);
 }
-
-header h2 span {
-  background: #192C57;
-  color: #ffffff;
-  padding: 0 1rem 0 1rem;
-  margin: 0 0 0 .3rem;
-}
-
 
 .logoRP {
-  width: 12rem;
+  border-radius: 100%;
+  width: 5rem;
 }
 /* Final Configurações header (Cabeçalho) */
 
-/* Button Padrão */
+/* Hero start */
+.hero-start {
+  height: 100vh;
 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Button Padrão */
 .btn-pd {
-  padding: 1rem 6rem !important;
+  margin: 2rem 0 0 0;
+  padding: .8rem 6rem !important;
   font-size: 1.5rem !important;
 }
 
+.btn-pd-info {
+  margin: 1rem 0 0 0;
+  padding: .6rem 1.5rem !important;
+  font-size: 1rem !important;
+}
+
 .btn {
-  background: #7843e9 !important;
+  background: rgb(18,87,168);
+  background: linear-gradient(90deg, rgba(18,87,168,1) 0%, rgba(20,111,212,1) 100%);
+  
   color: #fff !important;
   text-transform: uppercase;
   letter-spacing: 2px;
-  display: inline-block;
+  display: inline-block !important;
   font-weight: 700 !important;
   border-radius: 5px;
-  box-shadow: 0 5px 15px 0 rgba(0,0,0,.15) !important;
-  transition: transform .3s;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+  transition: transform 0.5s;
 }
 
 .btn:hover {
-  transform: translateY(3px);
+  transform: translateX(1px) scale(1.03);
 }
-
 /* Final buttom Padrão */
-
 
 /* Estilização do Conteúdo */
 main {
   font-family: 'Nunito Sans' !important;
-}
-
-.mSobre {
-  padding-top: 5rem !important;
 }
 
 main span {
@@ -113,34 +108,85 @@ main span {
   text-transform: uppercase;
 }
 
-p {
-  font-size: 1.3rem;
+.about-block-info-title {
+  margin-top: 6rem;
 }
-/* config aprsentação Dev Front */
-  .textodevFrontEnd {
-    background: #192C57;
-    color: #CDD4E9;
-    padding: 5px;
-    border-radius: 5px;
 
-    font-size: 1.5rem;
-    box-shadow: #203973 2.4px 2.4px 3.2px;
-  }
-  /* config aprsentação Dev Front */
+.about-block-info {
+  margin-top: 4rem; 
+}
 
-  /* Bordar da foto */
-    .border-foto-pessoal {
-      border: .5rem solid #7A8DBC ;
-      border-radius: 1rem;
-      padding: 1rem;
-    }
+.about-block-info-1 {
+  margin-right: 2rem;
+}
+.about-block-info-2 {
+  margin-left: 2rem;
+}
 
-    .border-foto-pessoal img {
-      margin-top: -5rem;
-      margin-left: -2rem;
-      margin-bottom: 1rem;
-    }
-  /* Bordar da foto */
+.about-block-info-skills {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-block-info-skills div {
+  margin: .5rem;
+  padding: 1rem;
+  background: #dbdbdb;
+  border-radius: .5rem;
+  text-transform: uppercase;
+
+  font-weight: 700;
+
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+
+/* Paragrafo no geral */
+p {
+  font-size: 1.2rem;
+}
+
+/* project-album-img */
+.project-album-img {
+  width: 400px;
+  height: 400px;
+
+  border-radius: .5rem;
+
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.projet-One {
+  background-image: url('../img/projetosFotos/agenciaColors.png');
+  background-position: center;
+  background-size: cover;
+} 
+
+.projet-Two {
+  background-image: url('../img/projetosFotos/ChocoNaty.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+} 
+
+.projet-Three {
+  background-image: url('../img/projetosFotos/falaMic.png');
+  background-position: center;
+  background-size: cover;
+} 
+
+.projet-Four {
+  background-image: url('../img/projetosFotos/petsAmore.png');
+  background-position: center;
+  background-size: cover;
+} 
+
+.projet-Five {
+  background-image: url('../img/projetosFotos/colajob.jpg');
+  background-position: center;
+  background-size: cover;
+} 
+
 
   /* Config Botão Github */
 .botaoPrimario {
@@ -183,6 +229,11 @@ p {
   cursor: pointer;
 }
  
+
+/* Pages Project */
+.project-page {
+  width: 90%;
+}
 
 /* Hero Footer */
 .bg-Hero {
