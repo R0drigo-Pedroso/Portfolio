@@ -7,7 +7,8 @@
   margin: 0;
   padding: 0;
   box-sizing: inherit;
-  font-family: inherit; }
+  font-family: inherit; 
+}
 
 html {
   font-size: 1rem;
@@ -34,16 +35,15 @@ header {
     right: 0;
 }
 
-
 li {
-  margin: 0 5px;
+  margin: 0 10px;
   list-style: none;
 }
 
 nav a:hover {
   border-radius: 5px;
   color: #CDD4E9 !important;
-  transition: 0.1s ease-in-out;
+  transition: .2s ease-in-out;
 
   background: rgb(18,87,168);
   background: linear-gradient(90deg, rgba(18,87,168,1) 0%, rgba(20,111,212,1) 100%);
@@ -54,6 +54,11 @@ nav a:hover {
   width: 5rem;
 }
 /* Final Configurações header (Cabeçalho) */
+
+.hero-start {
+  background-image: url(../img/bg/fundoNuvem.png) !important;
+  background-size: cover !important;
+}
 
 /* Hero start */
 .hero-start {
@@ -70,11 +75,6 @@ nav a:hover {
   font-size: 1.5rem !important;
 }
 
-.btn-pd-info {
-  padding: .6rem 1.5rem !important;
-  font-size: 1rem !important;
-}
-
 .btn {
   background: rgb(18,87,168);
   background: linear-gradient(90deg, rgba(18,87,168,1) 0%, rgba(20,111,212,1) 100%);
@@ -88,6 +88,32 @@ nav a:hover {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 
   transition: transform 0.5s;
+}
+
+.btn-pd-info {
+  padding: .6rem 1.5rem !important;
+  font-size: 1rem !important;
+}
+
+/* Seconrary */
+.btn-secondary {
+  background-color: #dbdbdb;
+  
+  text-decoration: none;
+  color: #000000 !important;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: inline-block !important;
+  font-weight: 700 !important;
+  border-radius: 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+  transition: transform 0.5s;
+}
+
+.btn-pd-info-secondary {
+  padding: .6rem 1.5rem !important;
+  font-size: 1rem !important;
 }
 
 .btn:hover {
@@ -108,8 +134,10 @@ main span {
 }
 
 .about-block-info-title {
-  margin-top: 6rem;
+  margin-top: 4rem;
 }
+
+
 
 .about-block-info {
   margin-top: 4rem; 
@@ -182,57 +210,9 @@ p {
   background-size: cover;
 } 
 
-
-  /* Config Botão Github */
-.botaoPrimario {
-  background: #192C57 !important;
-  color: #CDD4E9 !important;
-}
-  .botaoPrimario:hover {
-    background: #203973 !important;
-  }
-/* Config Botão Github */
-
-  /* Config Botão Download */
-.botaoSegundario {
-  background: #B2D3A8 !important;
-  color: #192C57 !important;
-}
-  .botaoSegundario:hover {
-    background: #8FAA87 !important;
-    color: #192c57 !important;
-  }
-/* Config Botão Download */
-
-/* Hard Skill */
-.iconsSkill img {
-  width: calc(20% - .1rem);
-}
-
-.textSoftSkill a {
-  color: #192C57;
-  line-height: 3.8rem;
-}
-
-.textSoftSkill a:hover {
-  color: #ffffff;
-  line-height: 3.8rem;
-  background: #192C57;
-  padding: .6rem;
-  border-radius: 5px;
-  /* transition: 0.3s ease-in; */
-  cursor: pointer;
-}
- 
-
 /* Pages Project */
 .project-page {
   width: 90%;
-}
-
-/* Hero Footer */
-.bg-Hero {
-  background: #131E3A;
 }
 
 .fotter-block-info {
@@ -257,9 +237,15 @@ footer h2 {
 form {
   width: 100%;
   padding: 1.5rem;
+  background: #fff;
 
   border-radius: .5rem;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px -8px 16px -8px;
+}
+
+.contat-form {
+  background-image: url(../img/bg/fundoNuvem.png);
+  background-size: cover;
 }
 
 .form-section {

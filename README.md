@@ -21,6 +21,20 @@ Este é o repositório do meu portfólio, onde apresento meus projetos e habilid
 1. Faça o clone deste repositório em sua máquina local.
 2. Abra o arquivo `index.html` no seu navegador para visualizar o portfólio.
 
+## Referências
+
+- [RAM MAHESHWARI](https://www.rammaheshwari.com/): Visite meu site para ver mais informações e atualizações.
+
+## Site para manipular Formulários
+
+- [elasticemail](https://app.elasticemail.com/): Um serviço de envio de e-mails para formulários web.
+- [smtpjs](https://smtpjs.com/): Uma solução de formulário hospedada na Netlify.
+- [sweetalert2](https://sweetalert2.github.io/): Uma solução de alert personalizado.
+
+### Video aula de formulario
+
+- [Receive Form Data on Email](https://www.youtube.com/watch?v=IxziwuuaS3c): Envio de formulario.
+
 ## Contribuições
 
 Contribuições são bem-vindas! Caso queira sugerir melhorias, correções de bugs ou novas funcionalidades, sinta-se à vontade para abrir uma _issue_ ou enviar um _pull request_.
