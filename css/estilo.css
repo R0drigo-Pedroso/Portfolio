@@ -68,57 +68,43 @@ nav a:hover {
   align-items: center;
   justify-content: center;
 }
+
+
+
 /* Button Padrão */
-.btn-pd {
-  margin: 2rem 0 0 0;
-  padding: .8rem 6rem !important;
-  font-size: 1.5rem !important;
-}
+.colors-primary {
+  width: 50%;
+  height: 3.5rem;
+  letter-spacing: .3rem;
+  color: white !important;
+  background: rgb(18,87,168) !important;
+  background: linear-gradient(90deg, rgba(18,87,168,1) 0%, rgba(20,111,212,1) 100%) !important;
 
-.btn {
-  background: rgb(18,87,168);
-  background: linear-gradient(90deg, rgba(18,87,168,1) 0%, rgba(20,111,212,1) 100%);
-  
-  color: #fff !important;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  display: inline-block !important;
-  font-weight: 700 !important;
-  border-radius: 5px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 
   transition: transform 0.5s;
 }
 
-.btn-pd-info {
-  padding: .6rem 1.5rem !important;
-  font-size: 1rem !important;
-}
-
-/* Seconrary */
-.btn-secondary {
-  background-color: #dbdbdb;
-  
-  text-decoration: none;
-  color: #000000 !important;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  display: inline-block !important;
-  font-weight: 700 !important;
-  border-radius: 5px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-
-  transition: transform 0.5s;
-}
-
-.btn-pd-info-secondary {
-  padding: .6rem 1.5rem !important;
-  font-size: 1rem !important;
-}
-
-.btn:hover {
+.colors-primary:hover {
   transform: translateX(1px) scale(1.03);
 }
+
+.btn-home-saiba-mais {
+  height: 3rem;
+  color: white !important;
+  background: rgb(18,87,168) !important;
+  background: linear-gradient(90deg, rgba(18,87,168,1) 0%, rgba(20,111,212,1) 100%) !important;
+
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+  transition: transform 0.5s;
+}
+
+.btn-home-saiba-mais:hover{
+  transform: translateX(1px) scale(1.03);
+}
+
+
 /* Final buttom Padrão */
 
 /* Estilização do Conteúdo */
@@ -253,7 +239,15 @@ form {
   justify-content: center;
 }
 
-@media (max-width: 600px)  {
+@media (max-width: 600px )  {
+  .hero-start {
+    background-image: none !important;
+  }
+
+  .colors-primary {
+    width: 100%;
+  }
+  
   h1 {
     font-size: 2rem !important;
   }
@@ -267,6 +261,12 @@ form {
   }
 }
 @media (min-width: 600px) {
+
+  .projet-Five {
+    background-image: url('../img/projetosFotos/colajob_resized.png');
+    background-position: center;
+  } 
+
   form {
     width: 60%;
   }
