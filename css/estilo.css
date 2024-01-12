@@ -1,6 +1,7 @@
+/* Importação de fonte do Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&display=swap');
 
-/* Configurações para zera css */
+/* Zera as configurações padrão do CSS para todos os elementos */
 *,
 *::after,
 *::before {
@@ -10,65 +11,62 @@
   font-family: inherit; 
 }
 
+/* Configurações para o elemento HTML */
 html {
   font-size: 1rem;
   scroll-behavior: smooth; 
 }
 
+/* Estilização para imagens */
 img {
   width: 100%;
 }
 
-/* Final da Configurações para zera css */
-
-/* Configurações header (Cabeçalho) */
+/* Configurações para o cabeçalho */
 header {
   font-family: 'Nunito Sans';
   font-weight: 700;
   text-transform: uppercase;
-
-    position: sticky;
-    background: white;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    right: 0;
+  position: sticky;
+  background: white;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
+/* Estilização para itens de lista (li) */
 li {
   margin: 0 10px;
   list-style: none;
 }
 
+/* Estilização para links na navegação (nav) */
 nav a:hover {
   border-radius: 5px;
   color: #CDD4E9 !important;
   transition: .2s ease-in-out;
-
   background: rgb(18,87,168);
   background: linear-gradient(90deg, rgba(18,87,168,1) 0%, rgba(20,111,212,1) 100%);
 }
 
+/* Estilização para a logo */
 .logoRP {
   border-radius: 100%;
   width: 5rem;
 }
-/* Final Configurações header (Cabeçalho) */
 
+/* Estilização para a seção hero-start */
 .hero-start {
   background-image: url(../img/bg/fundoNuvem.png) !important;
   background-size: cover !important;
-}
-
-/* Hero start */
-.hero-start {
   height: 100vh;
-
   display: flex;
   align-items: center;
   justify-content: center;
 }
-/* Button Padrão */
+
+/* Estilização para botões padrão */
 .btn-pd {
   margin: 2rem 0 0 0;
   padding: .8rem 6rem !important;
@@ -78,7 +76,6 @@ nav a:hover {
 .btn {
   background: rgb(18,87,168);
   background: linear-gradient(90deg, rgba(18,87,168,1) 0%, rgba(20,111,212,1) 100%);
-  
   color: #fff !important;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -86,7 +83,6 @@ nav a:hover {
   font-weight: 700 !important;
   border-radius: 5px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-
   transition: transform 0.5s;
 }
 
@@ -95,10 +91,9 @@ nav a:hover {
   font-size: 1rem !important;
 }
 
-/* Seconrary */
+/* Estilização para botões secundários */
 .btn-secondary {
   background-color: #dbdbdb;
-  
   text-decoration: none;
   color: #000000 !important;
   text-transform: uppercase;
@@ -107,7 +102,6 @@ nav a:hover {
   font-weight: 700 !important;
   border-radius: 5px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-
   transition: transform 0.5s;
 }
 
@@ -119,9 +113,8 @@ nav a:hover {
 .btn:hover {
   transform: translateX(1px) scale(1.03);
 }
-/* Final buttom Padrão */
 
-/* Estilização do Conteúdo */
+/* Estilização para o conteúdo principal */
 main {
   font-family: 'Nunito Sans' !important;
 }
@@ -133,16 +126,16 @@ main span {
   text-transform: uppercase;
 }
 
+/* Estilização para a seção about-block-info */
 .about-block-info-title {
   margin-top: 4rem;
 }
-
-
 
 .about-block-info {
   margin-top: 4rem; 
 }
 
+/* Estilização para as habilidades na seção about-block-info-skills */
 .about-block-info-skills {
   display: flex;
   flex-wrap: wrap;
@@ -154,31 +147,29 @@ main span {
   background: #dbdbdb;
   border-radius: .5rem;
   text-transform: uppercase;
-
   font-weight: 700;
-
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
+/* Estilização para a classe de erro na form-control */
 .form-control.error {
   border-color: red !important;
 }
 
-/* Paragrafo no geral */
+/* Estilização geral para parágrafos */
 p {
   font-size: 1.2rem;
 }
 
-/* project-album-img */
+/* Estilização para imagens na classe project-album-img */
 .project-album-img {
   width: 350px;
   height: 350px;
-
   border-radius: .5rem;
-
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
+/* Estilização para diferentes projetos com imagens de fundo */
 .projet-One {
   background-image: url('../img/projetosFotos/agenciaColors.png');
   background-position: center;
@@ -210,16 +201,18 @@ p {
   background-size: cover;
 } 
 
-/* Pages Project */
+/* Estilização para páginas de projeto */
 .project-page {
   width: 90%;
 }
 
+/* Estilização para informações no rodapé */
 .fotter-block-info {
   display: flex !important;
   justify-content: space-between !important;
 }
 
+/* Estilização para o rodapé */
 footer {
   height: 100%;
   background: #000000;
@@ -234,25 +227,28 @@ footer h2 {
   font-size: 1.5rem;
 }
 
+/* Estilização para formulários */
 form {
   width: 100%;
   padding: 1.5rem;
   background: #fff;
-
   border-radius: .5rem;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px -8px 16px -8px;
 }
 
+/* Estilização para a seção de formulário com fundo de nuvem */
 .contat-form {
   background-image: url(../img/bg/fundoNuvem.png);
   background-size: cover;
 }
 
+/* Estilização para a seção de formulário */
 .form-section {
   display: flex;
   justify-content: center;
 }
 
+/* Mídia Query para telas de até 600px */
 @media (max-width: 600px)  {
   h1 {
     font-size: 2rem !important;
@@ -266,6 +262,8 @@ form {
     margin: 2rem 0 0 0;
   }
 }
+
+/* Mídia Query para telas com mais de 600px */
 @media (min-width: 600px) {
   form {
     width: 60%;

@@ -1,3 +1,4 @@
+/* Estilização para o container-seta */
 .container-seta {
   display: flex;
   justify-content: center;
@@ -5,6 +6,7 @@
   margin-top: 10rem;
 }
 
+/* Estilização para a classe chevron */
 .chevron {
   position: absolute;
   width: 2.1rem;
@@ -14,6 +16,7 @@
   animation: move-chevron 3s ease-out infinite;
 }
 
+/* Animação para movimento do chevron */
 .chevron:first-child {
   animation: move-chevron 3s ease-out 1s infinite;
 }
@@ -22,6 +25,7 @@
   animation: move-chevron 3s ease-out 2s infinite;
 }
 
+/* Estilização para as partes do chevron */
 .chevron:before,
 .chevron:after {
   content: "";
@@ -30,6 +34,7 @@
   height: 100%;
   width: 50%;
 
+  /* Gradiente de cor de fundo para as partes do chevron */
   background: rgb(18,87,168);
   background: linear-gradient(90deg, rgba(18,87,168,1) 0%, rgba(20,111,212,1) 100%);
 }
@@ -45,6 +50,7 @@
   transform: skewY(-30deg);
 }
 
+/* Animação keyframes para o movimento do chevron */
 @keyframes move-chevron {
   25% {
     opacity: 1;

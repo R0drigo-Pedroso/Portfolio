@@ -1,18 +1,23 @@
+/* Importação de fonte do Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
 
+/* Zera as configurações padrão do CSS para todos os elementos */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Estilização para a classe rsLateral */
 .rsLateral {
     background: #fff;
     border-radius: 0 10px 10px 0;
 
+    /* Sombra para efeito tridimensional */
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
+/* Estilização para a classe box */
 .box{
     width: 4rem;
     height: 4rem;
@@ -20,30 +25,8 @@
     margin: 0.6rem;
     cursor: pointer;
 }
-/* 
-.box:hover{
-    width: 200px;
-    background: #c32aa3;
-    border-radius: 35px;
-    color: #fff;
-    box-shadow: 0 0 50px #b315917c;
-}
 
-.box:nth-child(2):hover{
-    background: #25d366;
-    box-shadow: 0 0 50px #25d3657e;
-}
-
-.box:nth-child(3):hover{
-    background: #1877f2;
-    box-shadow: 0 0 50px #1876f285;
-}
-
-.box:nth-child(4):hover{
-    background: #1da1f2;
-    box-shadow: 0 0 50px #1da0f280;
-} */
-
+/* Estilização para a classe icon dentro de .box */
 .box .icon{
     position: absolute;
     width: 50px;
@@ -56,6 +39,8 @@
     margin-right: 10px;
     transition: all .4s ease;
 }
+
+/* Cores de fundo para diferentes ícones */
 .instagram{
     background-color: #c32aa3;
 }
@@ -72,16 +57,17 @@
     background-color: #ffffff;
 }
 
+/* Efeito de hover para .box .icon */
 .box:hover .icon{
     background: #fff;
     color: #3b3b3b;
+    /* Sombra ao passar o mouse */
     box-shadow: 0 0 20px rgba(0,0,0,0.26);
 }
 
-/* CSS media query dentro de um stylesheet */
+/* Mídia Query para telas de até 1024px */
 @media (max-width: 1024px) {
     .rsLateral {
       display: none;
     }
-  }
-  
+}
